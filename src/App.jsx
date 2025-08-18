@@ -27,7 +27,7 @@ function App() {
       {/* Navbar */}
       <nav className="fixed top-0 left-0 w-full bg-gray-800 shadow-lg z-50 px-[5%]">
         <div className="container mx-auto flex justify-between items-center py-4">
-          <h1 className="text-2xl font-bold">iamonuwacj</h1>
+          <h1 className="md:text-2xl font-bold">iamonuwacj</h1>
           <ul className="flex gap-6">
             <li><a href="#home" className="hover:text-teal-400">Home</a></li>
             <li><a href="#about" className="hover:text-teal-400">About</a></li>
