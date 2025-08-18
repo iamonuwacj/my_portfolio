@@ -19,7 +19,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.3 }}
-          className="text-lg text-gray-300 max-w-xl md:max-w-full md:text-left mx-auto"
+          className="text-lg text-gray-300  md:max-w-full md:text-left mx-auto"
         >
           A passionate Frontend Developer <br />  <span className='text-sm text-gray-500'>React | TailwindCSS | JavaScript</span>
         </motion.p>
