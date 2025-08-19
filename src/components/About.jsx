@@ -91,7 +91,7 @@ export default function About() {
           <div className="flex justify-center gap-4">
             <a
               href="mailto:iamonuwacj@gmail.com" target="_blank"
-              className="px-6 py-2 bg-green-600 text-white rounded-lg shadow hover:bg-green-700 transition"
+              className="px-6 py-2 bg-gray-900 border text-white rounded-lg shadow hover:bg-gray-700 transition"
             >
               Email Me
             </a>

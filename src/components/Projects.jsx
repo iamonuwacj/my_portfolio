@@ -14,9 +14,9 @@ export default function Projects() {
             className="bg-gray-900 p-6 rounded-xl shadow-lg"
           >
             <img src={project.image} alt={project.title} className="rounded-lg mb-4" />
-            <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
-            <p className="text-gray-400 mb-3">{project.description}</p>
-            <div className="flex flex-wrap gap-2 mb-4">
+            <h3 className="text-2xl font-semibold mb-5">{project.title}</h3>
+            <p className="text-gray-400 text-sm mb-5">{project.description}</p>
+            <div className="flex flex-wrap gap-2 mb-5">
               {project.tags.map((tag, i) => (
                 <span key={i} className="text-sm bg-gray-700 px-2 py-1 rounded-md">{tag}</span>
               ))}
