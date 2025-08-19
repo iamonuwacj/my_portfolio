@@ -1,3 +1,6 @@
+import clearfund from "../assets/clearfund.png"
+
+
 export  const projects = [
   {
     title: "Portfolio Website",
@@ -20,7 +23,7 @@ export  const projects = [
     description: `ClearFund aggregates past funding data from leading Web3 grant
                   platforms, solving the problem of fragmented information in decentralized
                   public goods funding.`,
-    image: "/src/assets/clearfund.png",
+    image: clearfund,
     tags: ["next.js", "firebase", "Tailwind", "firestore"],
     github: "https://github.com/LighthouseL2/Clearfund",
     demo: "https://clearfund.netlify.app"
