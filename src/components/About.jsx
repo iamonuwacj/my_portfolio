@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section className="min-h-screen bg-gray-50 py-16 px-6 md:px-[5%]">
+    <section className="min-h-screen bg-gray-50 py-16 px-6 md:px-[5%]" id="about">
       {/* Intro */}
       <div className="max-w-4xl mx-auto text-center">
         <motion.h1
@@ -20,7 +20,7 @@ export default function About() {
           initial={{ width: 0 }}
           animate={{ width: "100%" }}
           transition={{ duration: 6, ease: "linear" }}
-          className="text-lg text-gray-600 leading-relaxed 
+          className="text-lg text-gray-600 leading-relaxed
           pr-2  whitespace-wrap font-mono"
         >
           Hi, I’m Chinedu Onuwa  — A frontend developer passionate about building

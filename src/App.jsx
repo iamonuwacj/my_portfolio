@@ -53,8 +53,8 @@ function App() {
 
       <nav className="fixed bottom-0 left-0 w-full bg-blue-400 shadow-lg z-50 px-[5%]">
         <div className="container mx-auto flex justify-between items-center py-5 text-black">
-          <h1 className="md:text-2xl font-bold">connect with me</h1>
-          <ul className="flex gap-6 text-xs">
+          <h1 className="md:text-2xl font-bold hidden sm:block">connect with me</h1>
+          <ul className="flex gap-6 text-xs w-full sm:w-fit justify-between">
             <li>
               <a href="https://github.com/iamonuwacj" className='flex flex-col items-center justify-center group'>
                 <Github className='group-hover:text-white transition-all'/>
