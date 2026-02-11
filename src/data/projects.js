@@ -1,22 +1,25 @@
 import clearfund from "../assets/clearfund.png"
+import taskmanager from "../assets/taskApp.png"
+import multi from "../assets/multi.png"
+import shop from "../assets/shop.png"
 
 
 export  const projects = [
   {
-    title: "Portfolio Website",
-    description: "A personal portfolio built with React and TailwindCSS.",
-    image: "https://via.placeholder.com/400x200",
-    tags: ["React", "Tailwind", "Framer Motion"],
-    github: "https://github.com/iamonuwacj/portfolio",
-    demo: "https://yourportfolio.com"
+    title: "Multi Step Form",
+    description: "Frontend mentor challenge project.",
+    image: multi,
+    tags: ["css", "javascript", "html"],
+    github: "https://github.com/iamonuwacj/multi-step-form",
+    demo: "https://multi-step-form-pi-one.vercel.app"
   },
   {
-    title: "E-commerce Store",
+    title: "Buy More",
     description: "A simple e-commerce site with cart functionality.",
-    image: "https://via.placeholder.com/400x200",
+    image: shop,
     tags: ["React", "Redux", "Tailwind"],
-    github: "https://github.com/iamonuwacj/ecommerce",
-    demo: "https://ecommerce-demo.com"
+    github: "https://github.com/iamonuwacj/BuyMore",
+    demo: "https://shop-now-bzs9-mdeyi1u8u-iamonuwacjs-projects.vercel.app/"
   },
   {
     title: "Clearfund",
@@ -29,12 +32,12 @@ export  const projects = [
     demo: "https://clearfund.netlify.app"
   },
   {
-    title: "Chat App",
-    description: "A real-time chat application using Socket.IO.",
-    image: "https://via.placeholder.com/400x200",
-    tags: ["React", "Socket.IO", "Node.js"],
-    github: "https://github.com/iamonuwacj/chatapp",
-    demo: "https://chatapp-demo.com"
+    title: "Task Manager",
+    description: "A task management app with advance features like CRUD operations and real-time updates.",
+    image: taskmanager,
+    tags: ["React", "JavaScript", "css"],
+    github: "https://github.com/iamonuwacj/taskmanager",
+    demo: "https://task-manager-pi-steel.vercel.app/"
   }
 ];
 

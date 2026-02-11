@@ -13,7 +13,9 @@ export default function Projects() {
             whileHover={{ scale: 1.05 }}
             className="bg-gray-900 p-6 rounded-xl shadow-lg"
           >
-            <img src={project.image} alt={project.title} className="rounded-lg mb-4" />
+            <div className='flex w-full justify-center mb-5'>
+              <img src={project.image} alt={project.title} className="rounded-lg mb-4 h-fit" />
+            </div>
             <h3 className="text-2xl font-semibold mb-5">{project.title}</h3>
             <p className="text-gray-400 text-sm mb-5">{project.description}</p>
             <div className="flex flex-wrap gap-2 mb-5">
